@@ -12,6 +12,7 @@ ul {
     gap: 16px
 }
 
+
 .picture-details > img {
     border: 3px solid #3882F6;
     border-radius: 25px;
@@ -53,9 +54,20 @@ ul {
     color: #f9faf8;
 }
 
-.logo-links, .intro-text {
+a:link, .intro-text {
     font-size: 18px;
-    color: #e5e7eb
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+a:visited
+{
+    color:#e5e7eb;
+}
+
+a:hover 
+{
+    color:#e5e7eb;
 }
 
 .intro-title {
@@ -93,6 +105,13 @@ button {
 
 .quote {
     background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    display: flex;
+}
+
+.quote p {
+    font-weight: 800;
 }
 
 .footer {

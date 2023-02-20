@@ -3,7 +3,11 @@ body {
 }
 
 ul {
-    list-style-type: none;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px
 }
 
 .picture-details > img {
@@ -16,8 +20,29 @@ ul {
 .intro {
     background-color: #1f2937;
     color: white;
+}
+
+.header {
     display: flex;
-    gap: 2px;
+    gap: 3px;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.sign-up-header {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 3px;
+    
+}
+
+.intro-img {
+    display: flex;
+    padding: 30px;
+    max-width: 500px;
+    max-height: 300px;
+    background-color: grey;
 }
 
 .logo {
@@ -25,7 +50,23 @@ ul {
     color: #f9faf8;
 }
 
-.logo-links {
+.logo-links, .intro-text {
     font-size: 18px;
+    color: #e5e7eb
+}
+
+.intro-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+button {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    background: #3882F6;
     color: #e5e7eb
 }

@@ -23,29 +23,40 @@ ul {
 .intro {
     background-color: #1f2937;
     color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .header {
     display: flex;
-    gap: 3px;
+    flex-direction: row;
     justify-content: space-between;
-    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
 }
 
 .sign-up-header {
     display: flex;
-    flex-direction: center;
-    align-items: center;
-    padding: 30px;
-    gap: 3px;
-    
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 10px;
 }
 
 .intro-img {
     display: flex;
-    padding: 30px;
-    max-width: 500px;
-    max-height: 300px;
+    width: 60%;
     background-color: grey;
 }
 
@@ -79,9 +90,10 @@ a:hover
 button {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
+    width: 7em;
     border: none;
     border-radius: 8px;
-    padding: 5px;
+    padding: 10px;
     background: #3882F6;
     color: #e5e7eb
 }
@@ -108,10 +120,12 @@ button {
     font-size: 36px;
     color: #1f2937;
     display: flex;
+    flex-direction: column;
 }
 
 .quote p {
     font-weight: 800;
+    align-self: flex-end;
 }
 
 .footer {

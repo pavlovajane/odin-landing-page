@@ -52,12 +52,14 @@ ul {
     background-color: grey;
 }
 
-.logo {
+.logo,
+.call-to-action .left-text strong {
     font-size: 24px;
     color: #f9faf8;
 }
 
-a:link, .intro-text {
+a:link, .intro-text,
+.call-to-action .left-text div {
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
@@ -144,6 +146,27 @@ button {
 .quote p {
     font-weight: 800;
     align-self: flex-end;
+}
+
+.call-to-action{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    flex-direction: row;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    border-radius: 8px;
+}
+
+.right-button .sign-up-button {
+    border:1px solid #e5e7eb;
 }
 
 .footer {
